@@ -1,0 +1,12 @@
+animal = "  Cler Samoyedo  "
+print(animal.upper())
+print(animal.lower())
+print(animal.strip().capitalize())
+print(animal.title())
+print(animal.strip())
+print(animal.lstrip())
+print(animal.rstrip())
+print(animal.find("Cle"))
+print(animal.replace("Samoyedo", "Ramirez"))
+print("Cle" in animal)
+print("Cle" not in animal)
